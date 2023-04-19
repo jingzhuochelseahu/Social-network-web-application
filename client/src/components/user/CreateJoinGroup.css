@@ -1,0 +1,75 @@
+.Create-JoinGroups{
+  background-color: #FFFBD3;
+  height:200px;
+  border-radius: 30px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  justify-content: center;
+  /* padding-top: 200px; */
+  /* margin-left: 200px;
+  margin-right: 200px; */
+  height: 400px;
+  width: 20%;
+  /* background-color: #FFFCE1;
+  margin-left: 20px;
+  height: 600px;
+  width: 30%;
+  padding-top: 1px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around; */
+}
+
+.SearchGroupContainer{
+  height:40px;
+  margin-top: none;
+}
+
+.SearchGroups{
+  width:75%;
+  height:20px;
+  border-radius: 20px;
+  border:none;
+  margin-bottom: none;
+}
+
+.JoinGroup{
+  width:20%;
+  height:10px;
+  border-radius: 30px;
+  margin-top: 5px;
+  margin-bottom:none;
+  justify-content: center;
+}
+
+.JoinConnect{
+  /* border:none; */
+  font-family: Roboto Slab;
+  font-weight: bold;
+  font-size:2px;
+  border:none;
+  height: 10px;
+}
+
+.JoinConnect:hover{
+  cursor:pointer;
+}
+
+.CreateGroup{
+  width:100%;
+  height:5px;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+.CreateNewGroupButton{
+  border:none;
+  background-color: transparent;
+  font-family: Roboto Slab;
+  font-weight: bold;
+  font-size:5x;
+}
+
+.CreateNewGroupButton:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,59 @@
+.profile-Group-exhibition{
+    width:80%;
+    height: 80%;
+    background-color: blue;
+}
+
+.Manage-Group{
+    font-size: x-large;
+    font-family:Roboto Slab;
+}
+.Profile-Public-Group{
+    /* padding-left: 2px; */
+    width: 40%;
+    justify-content: left;
+    align-items:flex-start;
+    margin-left: 20px;
+    /* background-color: red; */
+    /* float:left; */
+}
+
+.Profile-Public-Group ul{
+    width:300px;
+    margin:0;  
+    padding:0;
+    list-style: outside
+}
+
+.Profile-Public-Group li{
+    width: 230px;
+    list-style-type:none;
+    margin:0; 
+    vertical-align: top;
+    /* background-color: #9EE1C5; */
+    margin-top: 20px;
+    text-align: left;
+}
+
+.Profile-Private-Group{
+    padding-left: 2px;
+    width: 40%;
+    justify-content: left;
+    align-items:flex-start;
+    margin-left: 20px;
+    /* background-color: aqua; */
+}
+
+.Profile-Private-Group ul{
+    margin:0;  
+    padding:0;
+}
+
+
+.Profile-Private-Group li{
+    width: 230px;
+    list-style-type:none;
+    /* background-color: #9EE1C5; */
+    margin-top: 10px;
+    text-align: left;
+}

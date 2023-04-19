@@ -1,0 +1,49 @@
+.userInfoContainer{
+    background-color: #9EE1C5;
+    height:80%;
+    width:100%;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    /* margin-top: 20px; */
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    font-weight: bold;
+    padding-top:5px;
+}
+
+.UserInfo{
+    margin-top :2px;
+    width:100%;
+    height:80%;
+    /* display: flex; */
+    justify-content: space-around;
+    /* background-color: yellow; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.UserInfo p{
+  font-weight:bold;
+}
+
+.UserAvatar{
+  border-radius:50%;
+  margin-bottom: 10px;
+}
+
+.EditProfileButton{
+    margin-top: 10px;
+    background-color: transparent;
+    background-color:cadetblue;
+    border-radius: 30px;
+    /* background-color: red; */
+    border:none;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.EditProfileButton:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}

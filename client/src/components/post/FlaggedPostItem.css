@@ -1,0 +1,11 @@
+.post1{
+  /* background-color: red; */
+  /* height:600px; */
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.FlaggedPostContent{
+  height:fit-content;
+  /* background-color: yellow; */
+}

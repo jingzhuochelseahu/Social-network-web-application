@@ -1,0 +1,29 @@
+language: node_js
+node_js:
+  - "14"
+
+# cache:
+#   directories:
+#     - node_modules
+
+jobs:
+  include:
+    - stage: Lint, Test, Build
+      name: Lint
+      script:
+        - npm install
+        - npm run lint
+    - name: Test
+      script:
+        - npm install
+        - npm test -- --coverage
+    - name: Build
+      script: # only build the frontend, see if setting node option can fix travis heap out of memory issue
+        - cd client
+        - npm install
+        - export NODE_OPTIONS="--max-old-space-size=8192"
+        - npm run build
+
+branches:
+  only:
+  - main

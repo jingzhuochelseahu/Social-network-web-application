@@ -1,0 +1,59 @@
+.container{
+  width: 30%;
+  display: block;
+  margin: auto;
+  background-color: #E7F2F8;
+  border-radius: 6px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: "Console";
+  margin-top: 10%;
+}
+
+.signUpHeader {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.signUpHeader h3{
+  font-size: 2rem;
+  color:black;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.inputBox input{
+  display: block;
+  font: inherit;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 0.25rem;
+  width: 60%;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.signUpBotton button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #368980;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #368980;
+  border-radius: 4px;
+  font-weight: bold;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-top: 1rem;
+}
+
+.signUpBotton button:hover,
+.signUpBotton button:active {
+  background-color: #74BDCB;
+  border-color: #74BDCB;
+}
+
+.loginText{
+  padding: 1rem;
+  margin: 0;
+}

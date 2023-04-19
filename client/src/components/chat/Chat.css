@@ -1,0 +1,94 @@
+/* body{
+  height:100%;
+  width:100%;
+} */
+
+.ChatMainPage{
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+}
+
+.ChatList{
+  background-color: #FFFCE1;
+    margin-left: 20px;
+    height: 650px;
+    width: 20%;
+    padding-top: 5px;
+    border-radius: 30px;
+    padding-top: 20px;
+    font-family:cursive;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.ChatArea{
+  background-color:#EAF8C2;
+  width: 60%;
+  height:650px;
+  padding-top: 30px;
+  padding-left: 60px;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.ChatExhibition{
+  height: 500px;
+  width: 90%;
+  border-radius: 30px;
+  background-color: lightyellow;
+  padding-top: 10px;
+  padding-left: 5px;
+  /* padding: auto; */
+  align-items: center;
+  margin-bottom:5px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.ChatInput{
+  /* background-color: lightblue; */
+  padding-top: 10px;
+  margin-top: 5px;
+  height:100px;
+}
+.EnterMessage{
+  padding-top: 5px;
+  height:30px;
+  width:40%;
+}
+
+.ContactInformation{
+  height:40px;
+  width:100%;
+  margin-top: 15px;
+  padding:7px;
+}
+
+.ContactInformation:hover{
+  background-color: blanchedalmond;
+  cursor: pointer;
+}
+
+.UserImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 13px;
+}
+
+.StartChat{
+  font: inherit;
+  cursor: pointer;
+  background-color: #9EE1C5;
+  color: white;
+  border: 1px solid #9EE1C5;
+  border-radius: 4px;
+  font-weight: bold;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width:100px;
+  height:30px;
+  margin-top:5px;
+}

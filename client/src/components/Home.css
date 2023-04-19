@@ -1,0 +1,357 @@
+body{
+    height:100%;
+    width:100%;
+}
+
+.Navigation-Bar{
+    background:#EAF8C2;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;;
+    align-items: center;
+    font-size: 16px;
+}
+
+.App-Icon {
+    align-items: flex-start;
+}
+
+.Search{
+    height: 28px;
+    width: 180px;
+    border:none;
+    border-radius: 30px;
+    margin-right: 8px;
+    margin-top: 8=5px;
+}
+
+.SearchButton{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-family:inherit;
+}
+
+.SearchButton:hover{
+    cursor: pointer;
+}
+
+.userNav{
+    height: 100%;
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.usernamePart{
+    width:100%;
+    height: 100%;
+    padding-top: 8.5px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px;
+}
+
+.icon{
+    width:50%;
+    height:100%;
+    /* background-color: lightyellow; */
+    position: relative;
+}
+
+.SearchIconImg{
+    width:20px;
+    height:20px;
+    margin-top: 0px;
+    /* padding-top:0px; */
+}
+
+.notifications{
+ position: absolute;
+ top: 15px;
+ right: 0;
+ background-color: lightyellow;
+ color: black;
+ font-weight: 300;
+ display: flex;
+ flex-direction: column;
+ padding: 10px;
+ border-radius:30px;
+ align-items: center;
+ z-index: 2;
+}
+
+.notification{
+    padding: 5x;
+    font-size: 13px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.markedAsRead{
+    background-color: #FF9A62;
+    width: 40%;
+    border-radius: 30px;
+    border: none;
+    font-family: cursive;
+    font-size: 13px;
+}
+
+.Content{
+    margin-top :5px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Group-exhibition{
+    background-color: #FFFCE1;
+    margin-left: 20px;
+    height: 600px;
+    width: 40%;
+    padding-top: 1px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.SuggestedGroup-exhibition{
+    background-color: #FFFCE1;
+    margin-left: 20px;
+    height: 600px;
+    width: 40%;
+    padding-top: 1px;
+    border-radius: 30px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.profile-Group-exhibition{
+    width:80%;
+    height: 80%;
+    background-color: blue;
+}
+
+.Public-Group{
+    /* padding-left: 2px; */
+    width: 40%;
+    justify-content: left;
+    align-items:flex-start;
+    margin-left: 0%;
+    /* background-color: red; */
+    /* float:left; */
+}
+
+.Public-Group ul{
+    width:300px;
+    margin:0;  
+    padding:0;
+    list-style: outside
+}
+
+.Public-Group li{
+    width: 230px;
+    list-style-type:none;
+    margin:0; 
+    vertical-align: top;
+    /* background-color: #9EE1C5; */
+    margin-top: 20px;
+    text-align: left;
+}
+
+.Private-Group{
+    
+    padding-left: 2px;
+    width: 40%;
+    justify-content: left;
+    align-items:flex-start;
+    /* background-color: aqua; */
+}
+
+.Private-Group ul{
+    margin:0;  
+    padding:0;
+}
+
+
+.Private-Group li{
+    width: 230px;
+    list-style-type:none;
+    /* background-color: #9EE1C5; */
+    margin-top: 10px;
+    text-align: left;
+}
+
+.CreateJoinGroups{
+    width:30%;
+    height:200px;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 135px;
+    margin-left: 10px;
+    /* background-color: purple; */
+    position: absolute;
+    bottom:50px;
+}
+
+.VisitButton{
+    width:50px;
+    /* height: 20px; */
+    /* display: flex; */
+
+    margin-top: 4px;
+    float: right;
+    border:none;
+    border-radius: 30px;;
+    background-color: rgb(255, 216, 190);
+}
+
+.VisitButton:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.SuggestedPublic-Group{
+    width: 40%;
+    /* background-color: sred; */
+    height:350px;
+    margin-left:150px;
+
+}
+
+.SuggestedPublic-Group ul{
+    margin:0;  
+    padding:0;
+}
+
+
+.SuggestedPublic-Group li{
+    width: 230px;
+    list-style-type:none;
+    /* background-color: #9EE1C5; */
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+.Groups{
+    width:100%;
+    height:200px;
+    font-family: Trebuchet MS, sans-serif;
+}
+.Groups p{
+    white-space: nowrap;
+    font-size: 25px;
+    padding-top: 17px;
+}
+
+.Groups > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+
+.Groups > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
+
+
+.PublicGroups{
+    background-color: #D2F1CD;
+    width:300px;
+    height:200px;
+}
+
+.JoinGroup{
+    width:100%;
+    height:30px;
+    border-radius: 30px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.JoinConnect{
+    border:none;
+    background-color: transparent;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size:15px;
+}
+
+.JoinConnect:hover{
+    cursor:pointer;
+}
+
+.CreateGroup{
+    height: 30px;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: rgb(255, 216, 190);
+    margin-top: 80%;
+}
+
+.CreateNewGroupButton{
+    border:none;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size:16px;
+}
+
+.CreateNewGroupButton:hover{
+    cursor: pointer;
+}
+
+.GroupProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.tologin{
+    font-weight:bold;
+    height:100px;
+    /* background-color: sred; */
+    font-family:cursive;
+    font-size:20px;
+    background-color: red;
+    width:220%;
+    margin-top:70%;
+    margin-right:0px;
+    align-items: center;
+}
+
+.LogoutMessage{
+    /* background-color: yellow; */
+    width:60%;
+    height:300px;
+    font-size:20px;
+    font-weight:bold;
+    font-family: cursive;
+    /* margin-top:50%; */
+}

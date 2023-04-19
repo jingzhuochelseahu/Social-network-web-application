@@ -1,0 +1,56 @@
+/* .MessageExhi{
+  align-items: flex-end;
+} */
+.MessageBoard{
+  /* background-color: red; */
+  padding-top: 10px;
+  margin-block-start: 0%;
+  display: column;
+  width: 80%;
+  /* height: 80%; */
+}
+
+.MessageContent_Own{
+  background-color: rgb(255, 245, 217);
+  width: 40%;
+  margin-left: 15px;
+  border-radius:30px;
+  align-items: flex-end;
+  padding: 10px;
+  margin-bottom: 20px;
+  /* margin-top: 10px; */
+  
+}
+.MessageContent_Own p{
+  font-size: 10px;
+}
+
+.MessageContent {
+  background-color: rgb(212,233,229);
+  width: fit-content;
+  height:fit-content;
+  align-items: flex-start;
+  margin-right: 0%;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  border-radius:30px;
+  padding: 10px;
+}
+
+.MessageContent p{
+  font-size: 10px;
+}
+
+.ChatAttachment{
+  max-width: 200px;
+  max-height: 300px;
+}
+
+.messageImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  /* object-fit: cover; */
+  margin-left: 0%;
+  /* margin-right: 50px; */
+}
